@@ -80,7 +80,6 @@ class TrackController extends GetxController with LoadingMixin, MessagesMixin {
 
       await _audio_player.setUrl(track.preview_url);
       await _audio_player.play();
-      playing.value = false;
     }
   }
 
