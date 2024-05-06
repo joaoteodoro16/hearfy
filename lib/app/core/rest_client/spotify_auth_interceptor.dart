@@ -1,5 +1,6 @@
 import 'dart:developer';
 import 'package:dio/dio.dart';
+import 'package:hear_fy/app/core/constants/constants.dart';
 import 'package:hear_fy/app/core/rest_client/spotify_rest_client.dart';
 
 class SpotifyAuthInterceptor extends Interceptor {
@@ -22,8 +23,8 @@ class SpotifyAuthInterceptor extends Interceptor {
 
       final data = {
         'grant_type': 'client_credentials',
-        'client_id': 'b00c1dfce3a6495c9bd2632e0907be67',
-        'client_secret': '2caf2b64f5c347549e1449df308741cf'
+        'client_id': Constants.CLIENT_ID,
+        'client_secret': Constants.CLIENT_SECRET
       };
 
       final encodeData = data.entries
