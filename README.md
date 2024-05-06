@@ -23,6 +23,7 @@ Abaixo explico como Rodar o app na sua máquina corretamente
 ## Getting Started
 
 Versão do Flutter utilizada: 3.16.5
+Quando abrir o projeto em sua máquina, se atentar de rodar o comando "flutter pub get" no terminal 
 
 Passo 1: Acessar o link de Desenvolvedor Spotify
 https://developer.spotify.com/dashboard
