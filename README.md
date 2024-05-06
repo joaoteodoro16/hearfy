@@ -2,7 +2,23 @@
 
 Esse projeto tem como objetivo realizar o consumo de algumas funcionalidades da Api disponibilizada pelo Spotify.
 
-Para rodar o projeto da maneira correta é necessário realizar os passos a baixo
+#Funcionalidades
+- Busca das playlists publicas pelo ID de determinado usuário
+- Listagem das músicas da playlist
+- Reprodução das músicas(Deixei para tocar apenas as prévias de cada música)
+- Alternar entre as músicas pelos botões de pular e voltar
+
+Utilizei o Getx para o Gerenciamento de Estado, Rotas e Dependências
+- https://pub.dev/packages/get
+Para o consumo da Api em sí, utilizei o package Dio
+- https://pub.dev/packages/dio
+
+
+## Telas
+
+![1](https://github.com/joaoteodoro16/hearfy/assets/78423868/a46e5c93-7724-44b3-9129-da14984f079b) ![2](https://github.com/joaoteodoro16/hearfy/assets/78423868/a5ee529c-d993-42f9-a282-8cbeaa0b5e9f)  ![3](https://github.com/joaoteodoro16/hearfy/assets/78423868/697bc9f1-c571-4c95-a3be-dd79a6f56f12)
+
+Abaixo explico como Rodar o app na sua máquina corretamente
 
 ## Getting Started
 
