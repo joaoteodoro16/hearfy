@@ -7,13 +7,12 @@
 
 ## Esse projeto tem como objetivo realizar o consumo de algumas funcionalidades da Api disponibilizada pelo Spotify.
 
-<table>
-  <tr>
-    <td><img src="README_FILES/images/1.png" width="220"></td>
-    <td><img src="README_FILES/images/2.png" width="220"></td>
-    <td><img src="README_FILES/images/3.png" width="220"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="README_FILES/images/1.png" width="200">
+  <img src="README_FILES/images/2.png" width="200">
+  <img src="README_FILES/images/3.png" width="200">
+</p>
+
 
 
 <p align="center">
