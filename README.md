@@ -5,7 +5,7 @@
 
 # Hear Fy
 
-## Esse projeto tem como objetivo realizar o consumo de algumas funcionalidades da Api disponibilizada pelo Spotify.
+## This project aims to consume some features from the API provided by Spotify.
 
 <br>
 <p align="center">
@@ -20,15 +20,15 @@
   </a>
 </p>
 
-## Funcionalidades
-* Busca das playlists publicas pelo ID de determinado usuário
-* Listagem das músicas da playlist
-* Reprodução das músicas(Deixei para tocar apenas as prévias de cada música)
-* Alternar entre as músicas pelos botões de pular e voltar
+## Features
+* Fetch public playlists by a specific user's ID
+* List tracks from a playlist
+* Play tracks (set to play only the preview of each track)
+* Skip and go back between tracks using navigation buttons
 
-## Dependencias
+## Dependencies
 <details>
-     <summary> Ler mais </summary>
+     <summary> Read more </summary>
 
 * [dio](https://pub.dev/packages/dio)
 * [get](https://pub.dev/packages/get)
@@ -37,31 +37,31 @@
 
     </details>
 
-## Como rodar o projeto
+## How to run the project
 
-### Versão do Flutter utilizada: 3.16.5
-Quando abrir o projeto em sua máquina, se atentar de rodar o comando "flutter pub get" no terminal 
+### Flutter version used: 3.16.5
+When opening the project on your machine, make sure to run `flutter pub get` in the terminal.
 
-Passo 1: Acessar o link de Desenvolvedor Spotify
+Step 1: Go to the Spotify Developer Dashboard
 https://developer.spotify.com/dashboard
 
-Passo 2: Realizar a criação do App dentro do site do Spotify
+Step 2: Create an App on the Spotify platform
 ![image](https://github.com/joaoteodoro16/hearfy/assets/78423868/737551eb-c1b1-49c2-9922-18d312e2c608)
 ![image](https://github.com/joaoteodoro16/hearfy/assets/78423868/e5091df1-0e95-45c2-a61f-521edd6c30b9)
 
-Passo 3: Após a criação do App na plataforma, vai ser liberado um Client ID e um Client Secret que vão ser utilizados no consumo da Api
+Step 3: After creating the App, a Client ID and a Client Secret will be generated — these are required to consume the API
 ![Screenshot_1](https://github.com/joaoteodoro16/hearfy/assets/78423868/dfd775a8-d239-427b-bb05-d474e1ee4e43)
 
-Passo 4: Dentro do projeto, localize o arquivo constants.dart, nele é onde sera incluso o Client_ID e Cliente_Secret quer você acabou de conseguir na plataforma
+Step 4: Inside the project, locate the `constants.dart` file — this is where you will insert the Client ID and Client Secret obtained from the platform
 ![image](https://github.com/joaoteodoro16/hearfy/assets/78423868/4f8dfce5-db8d-4f05-832f-58b08c5a8532)
 
-Passo 5: Já deixei o ID de um usuário aleatório no código do projeto, porém, se voce quiser alterar esse ID e colocar o seu perfil, basta pegar o link da sua conta e copiar essa parte do texto
+Step 5: A random user ID is already included in the project code. However, if you want to use your own profile, just grab the link to your Spotify account and copy this portion of the URL
 ![image](https://github.com/joaoteodoro16/hearfy/assets/78423868/add69b3a-0d03-4bcb-bb9d-9abbbb2e1981)
 
-Para mais informações sobre a api para futuras implementações, segue o link da documentação oficial
+For more information about the API and future implementations, check the official documentation:
 - https://developer.spotify.com/documentation/web-api/tutorials/getting-started
 
-## Estrutura de pastas
+## Folder Structure
 <details>
      <summary> Click to expand </summary>
 
